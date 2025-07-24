@@ -1,0 +1,73 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Deluxe Suite",
+      "description": "Spacious suite with king-size bed and ocean view",
+      "price": 250,
+      "capacity": 2,
+      "size": 45,
+      "amenities": ["WiFi", "TV", "AC", "Mini Bar", "Jacuzzi"],
+      "image": "https://example.com/deluxe-suite.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Family Room",
+      "description": "Perfect for families with two queen beds",
+      "price": 180,
+      "capacity": 4,
+      "size": 35,
+      "amenities": ["WiFi", "TV", "AC", "Coffee Maker"],
+      "image": "https://example.com/family-room.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Standard Room",
+      "description": "Comfortable room with all basic amenities",
+      "price": 120,
+      "capacity": 2,
+      "size": 25,
+      "amenities": ["WiFi", "TV", "AC"],
+      "image": "https://example.com/standard-room.jpg"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Airport Transfer",
+      "description": "Comfortable ride from/to the airport",
+      "price": 40
+    },
+    {
+      "id": 2,
+      "name": "Spa Package",
+      "description": "Full day spa experience",
+      "price": 120
+    },
+    {
+      "id": 3,
+      "name": "Breakfast Buffet",
+      "description": "Daily breakfast for two",
+      "price": 25
+    }
+  ],
+  "bookings": [],
+  "reviews": [
+    {
+      "id": 1,
+      "roomId": 1,
+      "author": "John Doe",
+      "rating": 5,
+      "comment": "Amazing stay with perfect ocean view!",
+      "date": "2023-05-15"
+    },
+    {
+      "id": 2,
+      "roomId": 2,
+      "author": "Jane Smith",
+      "rating": 4,
+      "comment": "Great for our family vacation",
+      "date": "2023-06-20"
+    }
+  ]
+}
