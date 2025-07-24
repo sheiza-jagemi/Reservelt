@@ -53,6 +53,8 @@ const FeedbackForm = ({ onSubmit }) => {
       
      {/*} <h3 className="experience-title">Share Your Experience</h3> */}
       
+      <h3 className="experience-title">Share Your Experience</h3>
+      
       <form onSubmit={handleSubmit} className="feedback-form">
         <div className="form-group">
           <label htmlFor="userName" className="form-label">Your Name:</label>

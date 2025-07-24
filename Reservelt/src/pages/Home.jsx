@@ -41,6 +41,7 @@ const Home = () => {
         <h2>Room Categories</h2>
         <div className="room-types-grid">
           <div className="room-type-card">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Single Room" className="room-type-image" />
             <h3>Single Rooms</h3>
             <p className="price">$116/night</p>
             <p>Perfect for solo travelers, featuring essential amenities and comfortable accommodations.</p>
@@ -52,6 +53,7 @@ const Home = () => {
             </ul>
           </div>
           <div className="room-type-card">
+            <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Double Room" className="room-type-image" />
             <h3>Double Rooms</h3>
             <p className="price">$180/night</p>
             <p>Spacious rooms ideal for couples, with enhanced amenities and city views.</p>
@@ -63,6 +65,7 @@ const Home = () => {
             </ul>
           </div>
           <div className="room-type-card">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Executive Suite" className="room-type-image" />
             <h3>Executive Suites</h3>
             <p className="price">$350/night</p>
             <p>Luxurious suites with premium amenities and stunning views for the ultimate experience.</p>
