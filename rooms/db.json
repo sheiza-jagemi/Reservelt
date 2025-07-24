@@ -1,0 +1,2756 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "roomNumber": "101",
+      "roomType": "Single",
+      "pricePerNight": 116,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-18",
+          "end": "2025-08-22"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "roomNumber": "102",
+      "roomType": "Single",
+      "pricePerNight": 116,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-13",
+          "end": "2025-08-17"
+        },
+        {
+          "start": "2025-08-16",
+          "end": "2025-08-21"
+        },
+        {
+          "start": "2025-09-07",
+          "end": "2025-09-09"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "roomNumber": "103",
+      "roomType": "Single",
+      "pricePerNight": 122,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-11",
+          "end": "2025-09-12"
+        },
+        {
+          "start": "2025-08-03",
+          "end": "2025-08-06"
+        },
+        {
+          "start": "2025-08-30",
+          "end": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "roomNumber": "104",
+      "roomType": "Single",
+      "pricePerNight": 117,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-06"
+        },
+        {
+          "start": "2025-07-25",
+          "end": "2025-07-27"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "roomNumber": "105",
+      "roomType": "Single",
+      "pricePerNight": 108,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-26",
+          "end": "2025-08-31"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "roomNumber": "106",
+      "roomType": "Single",
+      "pricePerNight": 100,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 7,
+      "roomNumber": "107",
+      "roomType": "Single",
+      "pricePerNight": 111,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 8,
+      "roomNumber": "108",
+      "roomType": "Single",
+      "pricePerNight": 121,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-18",
+          "end": "2025-08-21"
+        },
+        {
+          "start": "2025-08-20",
+          "end": "2025-08-21"
+        },
+        {
+          "start": "2025-07-23",
+          "end": "2025-07-25"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "roomNumber": "109",
+      "roomType": "Single",
+      "pricePerNight": 102,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-17",
+          "end": "2025-08-19"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "roomNumber": "110",
+      "roomType": "Single",
+      "pricePerNight": 123,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 11,
+      "roomNumber": "111",
+      "roomType": "Single",
+      "pricePerNight": 115,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 12,
+      "roomNumber": "112",
+      "roomType": "Single",
+      "pricePerNight": 107,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-07-31",
+          "end": "2025-08-03"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "roomNumber": "113",
+      "roomType": "Single",
+      "pricePerNight": 124,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-26",
+          "end": "2025-08-27"
+        },
+        {
+          "start": "2025-08-02",
+          "end": "2025-08-04"
+        },
+        {
+          "start": "2025-08-17",
+          "end": "2025-08-19"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "roomNumber": "114",
+      "roomType": "Single",
+      "pricePerNight": 111,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 15,
+      "roomNumber": "115",
+      "roomType": "Single",
+      "pricePerNight": 110,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-16",
+          "end": "2025-08-18"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "roomNumber": "116",
+      "roomType": "Single",
+      "pricePerNight": 118,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-08",
+          "end": "2025-08-11"
+        },
+        {
+          "start": "2025-08-17",
+          "end": "2025-08-19"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "roomNumber": "117",
+      "roomType": "Single",
+      "pricePerNight": 116,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 18,
+      "roomNumber": "118",
+      "roomType": "Single",
+      "pricePerNight": 128,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 19,
+      "roomNumber": "119",
+      "roomType": "Single",
+      "pricePerNight": 122,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-01",
+          "end": "2025-08-03"
+        },
+        {
+          "start": "2025-08-25",
+          "end": "2025-08-30"
+        },
+        {
+          "start": "2025-07-31",
+          "end": "2025-08-01"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "roomNumber": "120",
+      "roomType": "Single",
+      "pricePerNight": 113,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-07",
+          "end": "2025-09-09"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "roomNumber": "121",
+      "roomType": "Single",
+      "pricePerNight": 108,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 22,
+      "roomNumber": "122",
+      "roomType": "Single",
+      "pricePerNight": 103,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-03",
+          "end": "2025-08-07"
+        },
+        {
+          "start": "2025-09-07",
+          "end": "2025-09-10"
+        },
+        {
+          "start": "2025-08-03",
+          "end": "2025-08-08"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "roomNumber": "123",
+      "roomType": "Single",
+      "pricePerNight": 112,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-05",
+          "end": "2025-09-09"
+        },
+        {
+          "start": "2025-09-08",
+          "end": "2025-09-12"
+        },
+        {
+          "start": "2025-08-20",
+          "end": "2025-08-25"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "roomNumber": "124",
+      "roomType": "Single",
+      "pricePerNight": 108,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 25,
+      "roomNumber": "125",
+      "roomType": "Single",
+      "pricePerNight": 128,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 26,
+      "roomNumber": "126",
+      "roomType": "Single",
+      "pricePerNight": 116,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-17",
+          "end": "2025-08-21"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "roomNumber": "127",
+      "roomType": "Single",
+      "pricePerNight": 127,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-08",
+          "end": "2025-08-09"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "roomNumber": "128",
+      "roomType": "Single",
+      "pricePerNight": 101,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 29,
+      "roomNumber": "129",
+      "roomType": "Single",
+      "pricePerNight": 116,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-28",
+          "end": "2025-08-31"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "roomNumber": "130",
+      "roomType": "Single",
+      "pricePerNight": 118,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-23",
+          "end": "2025-08-27"
+        },
+        {
+          "start": "2025-08-17",
+          "end": "2025-08-19"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "roomNumber": "131",
+      "roomType": "Single",
+      "pricePerNight": 110,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 32,
+      "roomNumber": "132",
+      "roomType": "Single",
+      "pricePerNight": 119,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 33,
+      "roomNumber": "133",
+      "roomType": "Single",
+      "pricePerNight": 123,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-02",
+          "end": "2025-08-06"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "roomNumber": "134",
+      "roomType": "Single",
+      "pricePerNight": 124,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-02",
+          "end": "2025-08-05"
+        },
+        {
+          "start": "2025-09-05",
+          "end": "2025-09-09"
+        },
+        {
+          "start": "2025-09-15",
+          "end": "2025-09-18"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "roomNumber": "135",
+      "roomType": "Single",
+      "pricePerNight": 111,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-10",
+          "end": "2025-09-12"
+        },
+        {
+          "start": "2025-07-25",
+          "end": "2025-07-27"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "roomNumber": "136",
+      "roomType": "Single",
+      "pricePerNight": 113,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-08",
+          "end": "2025-08-13"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "roomNumber": "137",
+      "roomType": "Single",
+      "pricePerNight": 102,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-14",
+          "end": "2025-09-16"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "roomNumber": "138",
+      "roomType": "Single",
+      "pricePerNight": 110,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities."
+    },
+    {
+      "id": 39,
+      "roomNumber": "139",
+      "roomType": "Single",
+      "pricePerNight": 114,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-05",
+          "end": "2025-09-08"
+        },
+        {
+          "start": "2025-09-12",
+          "end": "2025-09-16"
+        },
+        {
+          "start": "2025-09-17",
+          "end": "2025-09-19"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "roomNumber": "140",
+      "roomType": "Single",
+      "pricePerNight": 120,
+      "maxOccupancy": 1,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Fridge"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Cozy single room with a comfortable bed and modern amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-27",
+          "end": "2025-08-29"
+        },
+        {
+          "start": "2025-08-26",
+          "end": "2025-08-31"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "roomNumber": "201",
+      "roomType": "Double",
+      "pricePerNight": 191,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-09-11",
+          "end": "2025-09-16"
+        },
+        {
+          "start": "2025-09-06",
+          "end": "2025-09-09"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "roomNumber": "202",
+      "roomType": "Double",
+      "pricePerNight": 166,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-24",
+          "end": "2025-08-25"
+        },
+        {
+          "start": "2025-07-31",
+          "end": "2025-08-03"
+        },
+        {
+          "start": "2025-07-27",
+          "end": "2025-07-31"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "roomNumber": "203",
+      "roomType": "Double",
+      "pricePerNight": 169,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-27",
+          "end": "2025-08-30"
+        },
+        {
+          "start": "2025-09-18",
+          "end": "2025-09-22"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "roomNumber": "204",
+      "roomType": "Double",
+      "pricePerNight": 195,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-09-04",
+          "end": "2025-09-06"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "roomNumber": "205",
+      "roomType": "Double",
+      "pricePerNight": 167,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-06",
+          "end": "2025-08-07"
+        },
+        {
+          "start": "2025-09-01",
+          "end": "2025-09-02"
+        },
+        {
+          "start": "2025-09-13",
+          "end": "2025-09-16"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "roomNumber": "206",
+      "roomType": "Double",
+      "pricePerNight": 182,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-07-23",
+          "end": "2025-07-27"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "roomNumber": "207",
+      "roomType": "Double",
+      "pricePerNight": 191,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-07-23",
+          "end": "2025-07-24"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "roomNumber": "208",
+      "roomType": "Double",
+      "pricePerNight": 168,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-03",
+          "end": "2025-08-06"
+        },
+        {
+          "start": "2025-08-07",
+          "end": "2025-08-11"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "roomNumber": "209",
+      "roomType": "Double",
+      "pricePerNight": 193,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 50,
+      "roomNumber": "210",
+      "roomType": "Double",
+      "pricePerNight": 199,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-12",
+          "end": "2025-08-14"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "roomNumber": "211",
+      "roomType": "Double",
+      "pricePerNight": 193,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-09-15",
+          "end": "2025-09-17"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "roomNumber": "212",
+      "roomType": "Double",
+      "pricePerNight": 179,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-09-06",
+          "end": "2025-09-10"
+        },
+        {
+          "start": "2025-08-26",
+          "end": "2025-08-31"
+        },
+        {
+          "start": "2025-09-07",
+          "end": "2025-09-10"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "roomNumber": "213",
+      "roomType": "Double",
+      "pricePerNight": 184,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 54,
+      "roomNumber": "214",
+      "roomType": "Double",
+      "pricePerNight": 155,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-21",
+          "end": "2025-08-24"
+        },
+        {
+          "start": "2025-09-18",
+          "end": "2025-09-22"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "roomNumber": "215",
+      "roomType": "Double",
+      "pricePerNight": 178,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-07-25",
+          "end": "2025-07-28"
+        },
+        {
+          "start": "2025-08-06",
+          "end": "2025-08-09"
+        },
+        {
+          "start": "2025-09-08",
+          "end": "2025-09-13"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "roomNumber": "216",
+      "roomType": "Double",
+      "pricePerNight": 187,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-09-09",
+          "end": "2025-09-14"
+        },
+        {
+          "start": "2025-07-30",
+          "end": "2025-08-02"
+        },
+        {
+          "start": "2025-08-27",
+          "end": "2025-08-31"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "roomNumber": "217",
+      "roomType": "Double",
+      "pricePerNight": 196,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-07-31",
+          "end": "2025-08-04"
+        },
+        {
+          "start": "2025-08-14",
+          "end": "2025-08-15"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "roomNumber": "218",
+      "roomType": "Double",
+      "pricePerNight": 162,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-28",
+          "end": "2025-08-30"
+        },
+        {
+          "start": "2025-09-18",
+          "end": "2025-09-20"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "roomNumber": "219",
+      "roomType": "Double",
+      "pricePerNight": 191,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-28",
+          "end": "2025-08-29"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "roomNumber": "220",
+      "roomType": "Double",
+      "pricePerNight": 170,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 61,
+      "roomNumber": "221",
+      "roomType": "Double",
+      "pricePerNight": 195,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 62,
+      "roomNumber": "222",
+      "roomType": "Double",
+      "pricePerNight": 156,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 63,
+      "roomNumber": "223",
+      "roomType": "Double",
+      "pricePerNight": 199,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 64,
+      "roomNumber": "224",
+      "roomType": "Double",
+      "pricePerNight": 160,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 65,
+      "roomNumber": "225",
+      "roomType": "Double",
+      "pricePerNight": 190,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-16",
+          "end": "2025-08-21"
+        },
+        {
+          "start": "2025-09-09",
+          "end": "2025-09-10"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "roomNumber": "226",
+      "roomType": "Double",
+      "pricePerNight": 165,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-09-05",
+          "end": "2025-09-10"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "roomNumber": "227",
+      "roomType": "Double",
+      "pricePerNight": 174,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-06",
+          "end": "2025-08-08"
+        },
+        {
+          "start": "2025-08-28",
+          "end": "2025-08-29"
+        },
+        {
+          "start": "2025-08-09",
+          "end": "2025-08-14"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "roomNumber": "228",
+      "roomType": "Double",
+      "pricePerNight": 188,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 69,
+      "roomNumber": "229",
+      "roomType": "Double",
+      "pricePerNight": 183,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view."
+    },
+    {
+      "id": 70,
+      "roomNumber": "230",
+      "roomType": "Double",
+      "pricePerNight": 171,
+      "maxOccupancy": 2,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Spacious double room with two beds and a beautiful view.",
+      "bookedDates": [
+        {
+          "start": "2025-08-27",
+          "end": "2025-08-29"
+        },
+        {
+          "start": "2025-08-11",
+          "end": "2025-08-15"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "roomNumber": "301",
+      "roomType": "Executive Suite",
+      "pricePerNight": 294,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities."
+    },
+    {
+      "id": 72,
+      "roomNumber": "302",
+      "roomType": "Executive Suite",
+      "pricePerNight": 261,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-30",
+          "end": "2025-09-02"
+        },
+        {
+          "start": "2025-08-23",
+          "end": "2025-08-24"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "roomNumber": "303",
+      "roomType": "Executive Suite",
+      "pricePerNight": 347,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-03",
+          "end": "2025-08-08"
+        },
+        {
+          "start": "2025-08-08",
+          "end": "2025-08-13"
+        },
+        {
+          "start": "2025-07-28",
+          "end": "2025-08-02"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "roomNumber": "304",
+      "roomType": "Executive Suite",
+      "pricePerNight": 345,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-04",
+          "end": "2025-08-07"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "roomNumber": "305",
+      "roomType": "Executive Suite",
+      "pricePerNight": 285,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-07-30",
+          "end": "2025-08-01"
+        },
+        {
+          "start": "2025-08-04",
+          "end": "2025-08-05"
+        },
+        {
+          "start": "2025-08-01",
+          "end": "2025-08-03"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "roomNumber": "306",
+      "roomType": "Executive Suite",
+      "pricePerNight": 272,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities."
+    },
+    {
+      "id": 77,
+      "roomNumber": "307",
+      "roomType": "Executive Suite",
+      "pricePerNight": 323,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-07-27",
+          "end": "2025-07-29"
+        },
+        {
+          "start": "2025-08-28",
+          "end": "2025-09-02"
+        },
+        {
+          "start": "2025-08-01",
+          "end": "2025-08-04"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "roomNumber": "308",
+      "roomType": "Executive Suite",
+      "pricePerNight": 277,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-10",
+          "end": "2025-09-11"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "roomNumber": "309",
+      "roomType": "Executive Suite",
+      "pricePerNight": 302,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-13",
+          "end": "2025-08-17"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "roomNumber": "310",
+      "roomType": "Executive Suite",
+      "pricePerNight": 258,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-18",
+          "end": "2025-08-22"
+        },
+        {
+          "start": "2025-08-03",
+          "end": "2025-08-05"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "roomNumber": "311",
+      "roomType": "Executive Suite",
+      "pricePerNight": 290,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-15",
+          "end": "2025-09-18"
+        },
+        {
+          "start": "2025-09-09",
+          "end": "2025-09-12"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "roomNumber": "312",
+      "roomType": "Executive Suite",
+      "pricePerNight": 267,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-19",
+          "end": "2025-09-20"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "roomNumber": "313",
+      "roomType": "Executive Suite",
+      "pricePerNight": 273,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-12",
+          "end": "2025-08-14"
+        },
+        {
+          "start": "2025-09-19",
+          "end": "2025-09-24"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "roomNumber": "314",
+      "roomType": "Executive Suite",
+      "pricePerNight": 340,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-10",
+          "end": "2025-08-15"
+        },
+        {
+          "start": "2025-08-08",
+          "end": "2025-08-12"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "roomNumber": "315",
+      "roomType": "Executive Suite",
+      "pricePerNight": 298,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-18",
+          "end": "2025-08-20"
+        },
+        {
+          "start": "2025-08-05",
+          "end": "2025-08-08"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "roomNumber": "316",
+      "roomType": "Executive Suite",
+      "pricePerNight": 311,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-15",
+          "end": "2025-09-17"
+        },
+        {
+          "start": "2025-08-31",
+          "end": "2025-09-01"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "roomNumber": "317",
+      "roomType": "Executive Suite",
+      "pricePerNight": 270,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-19",
+          "end": "2025-09-22"
+        },
+        {
+          "start": "2025-08-28",
+          "end": "2025-08-30"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "roomNumber": "318",
+      "roomType": "Executive Suite",
+      "pricePerNight": 298,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-14",
+          "end": "2025-09-16"
+        },
+        {
+          "start": "2025-09-15",
+          "end": "2025-09-17"
+        },
+        {
+          "start": "2025-09-20",
+          "end": "2025-09-23"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "roomNumber": "319",
+      "roomType": "Executive Suite",
+      "pricePerNight": 286,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-07-28",
+          "end": "2025-07-29"
+        },
+        {
+          "start": "2025-07-28",
+          "end": "2025-08-01"
+        },
+        {
+          "start": "2025-07-29",
+          "end": "2025-08-01"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "roomNumber": "320",
+      "roomType": "Executive Suite",
+      "pricePerNight": 271,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-17",
+          "end": "2025-09-20"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "roomNumber": "321",
+      "roomType": "Executive Suite",
+      "pricePerNight": 311,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-08",
+          "end": "2025-09-13"
+        },
+        {
+          "start": "2025-08-09",
+          "end": "2025-08-10"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "roomNumber": "322",
+      "roomType": "Executive Suite",
+      "pricePerNight": 284,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-22",
+          "end": "2025-08-23"
+        },
+        {
+          "start": "2025-07-30",
+          "end": "2025-08-01"
+        },
+        {
+          "start": "2025-08-14",
+          "end": "2025-08-16"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "roomNumber": "323",
+      "roomType": "Executive Suite",
+      "pricePerNight": 281,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-04",
+          "end": "2025-09-07"
+        },
+        {
+          "start": "2025-07-25",
+          "end": "2025-07-29"
+        },
+        {
+          "start": "2025-08-22",
+          "end": "2025-08-23"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "roomNumber": "324",
+      "roomType": "Executive Suite",
+      "pricePerNight": 286,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities."
+    },
+    {
+      "id": 95,
+      "roomNumber": "325",
+      "roomType": "Executive Suite",
+      "pricePerNight": 275,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-12",
+          "end": "2025-09-17"
+        },
+        {
+          "start": "2025-09-07",
+          "end": "2025-09-08"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "roomNumber": "326",
+      "roomType": "Executive Suite",
+      "pricePerNight": 323,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities."
+    },
+    {
+      "id": 97,
+      "roomNumber": "327",
+      "roomType": "Executive Suite",
+      "pricePerNight": 298,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": true,
+      "images": [
+        "https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdGVsJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-09-14",
+          "end": "2025-09-19"
+        },
+        {
+          "start": "2025-08-24",
+          "end": "2025-08-25"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "roomNumber": "328",
+      "roomType": "Executive Suite",
+      "pricePerNight": 314,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities."
+    },
+    {
+      "id": 99,
+      "roomNumber": "329",
+      "roomType": "Executive Suite",
+      "pricePerNight": 291,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities."
+    },
+    {
+      "id": 100,
+      "roomNumber": "330",
+      "roomType": "Executive Suite",
+      "pricePerNight": 318,
+      "maxOccupancy": 4,
+      "amenities": [
+        "Wi-Fi",
+        "TV",
+        "Air Conditioning",
+        "Mini Bar",
+        "Coffee Maker",
+        "Balcony",
+        "Jacuzzi",
+        "Work Desk"
+      ],
+      "isAvailable": false,
+      "images": [
+        "https://images.unsplash.com/photo-1444201983204-c43cbd584d93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjB2aWV3fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiYXRocm9vbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+      ],
+      "description": "Luxurious suite with separate living area and premium amenities.",
+      "bookedDates": [
+        {
+          "start": "2025-08-14",
+          "end": "2025-08-19"
+        },
+        {
+          "start": "2025-09-01",
+          "end": "2025-09-04"
+        }
+      ]
+    }
+  ]
+}
