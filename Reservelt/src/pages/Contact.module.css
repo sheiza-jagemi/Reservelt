@@ -1,0 +1,246 @@
+/* src/pages/Contact.module.css */
+
+.pageContainer {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #2c3e50;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+  gap: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+.contactInfo, .contactForm {
+  flex: 1; /* Allows sections to grow and shrink */
+  min-width: 300px; /* Minimum width before wrapping */
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.contactInfo {
+  background-color: #eaf4f7; /* Light blue background for info section */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes social links to bottom if space allows */
+}
+
+.contactInfo h2 {
+  color: #3498db;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+.contactInfo p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.contactInfo p svg {
+  margin-right: 10px;
+  color: #2c3e50;
+  font-size: 1.3em; /* Adjust icon size */
+}
+
+.socialLinks {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #dcdcdc;
+  text-align: center;
+}
+
+.socialLinks h3 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.socialIconLink {
+  color: #2c3e50; /* Default icon color */
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.socialIconLink svg {
+  width: 40px; /* Size of the SVG icons */
+  height: 40px;
+}
+
+.socialIconLink:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+}
+
+/* Specific hover colors for social icons */
+.socialIconLink.facebook:hover { color: #1877F2; }
+.socialIconLink.instagram:hover { color: #E4405F; }
+.socialIconLink.tiktok:hover { color: #000000; } /* TikTok's main color is black */
+.socialIconLink.x:hover { color: #1DA1F2; } /* X (Twitter) blue */
+
+
+.contactForm h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 10px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.05rem;
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="email"],
+.formGroup textarea {
+  width: calc(100% - 20px); /* Account for padding */
+  padding: 12px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+  outline: none;
+}
+
+.formGroup textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 120px;
+}
+
+.submitBtn {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+}
+
+.submitBtn:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+.messageBox {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.successMessage {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #badbcc;
+}
+
+.errorMessage {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pageContainer {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .heading {
+    font-size: 2.2rem;
+  }
+
+  .contactContainer {
+    flex-direction: column; /* Stack sections vertically */
+    gap: 30px;
+  }
+
+  .contactInfo, .contactForm {
+    min-width: unset; /* Remove min-width to allow full flexibility */
+    padding: 20px;
+  }
+
+  .contactInfo h2, .contactForm h2 {
+    font-size: 1.6rem;
+  }
+
+  .contactInfo p, .formGroup label, .formGroup input, .formGroup textarea {
+    font-size: 1rem;
+  }
+
+  .socialIconLink svg {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContainer {
+    padding: 15px;
+    margin: 15px auto;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+  }
+
+  .contactInfo h2, .contactForm h2 {
+    font-size: 1.4rem;
+  }
+
+  .socialIcons {
+    gap: 15px;
+  }
+}

@@ -1,0 +1,182 @@
+/* src/components/Navbar.css */
+/* Updated CSS for Navbar, including logo styling */
+
+.navbar {
+  background-color: #2c3e50; /* Dark blue-grey background */
+  height: 80px;
+  display: flex;
+  justify-content: center; /* Centers the navbar-container horizontally */
+  align-items: center; /* Centers items vertically */
+  font-size: 1.2rem;
+  position: sticky; /* Makes the navbar stick to the top when scrolling */
+  top: 0;
+  z-index: 999; /* Ensures the navbar stays on top of other content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Pushes logo to left, menu to right */
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1300px; /* Limits the max width of the content inside the navbar */
+  padding: 0 50px; /* Padding on the sides */
+}
+
+.navbar-logo {
+  color: #ecf0f1; /* Light grey text for brand name */
+  justify-self: start; /* Aligns itself to the start within its flex container */
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex; /* Allows logo image and text to sit side-by-side */
+  align-items: center; /* Vertically aligns image and text */
+  gap: 10px; /* Space between the image and the text */
+  /* Removed margin-left: -20%; as it's not needed with proper flex layout */
+  font-weight: 700; /* Bold text for the brand */
+  letter-spacing: 1.5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-logo:hover {
+  color: #3498db; /* Blue on hover for the logo text/link */
+}
+
+.logo-image {
+  height: 50px; /* Adjust based on your logo's aspect ratio */
+  width: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Slightly rounded corners for the logo image */
+  object-fit: contain; /* Ensures the entire image is visible within its bounds */
+}
+
+.logo-text {
+  font-family: 'Inter', sans-serif; /* Using Inter font for the text part of the logo */
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
+}
+
+.nav-item {
+  height: 80px; /* Matches navbar height for vertical centering of links */
+  display: flex; /* Allows nav-links to be centered vertically within nav-item */
+  align-items: center;
+}
+
+.nav-links {
+  color: #ecf0f1; /* Light grey text for navigation links */
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%; /* Makes the clickable area fill the nav-item height */
+  position: relative; /* For underline effect */
+  transition: color 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.nav-links:hover {
+  color: #3498db; /* Blue on hover */
+}
+
+/* Underline effect on hover */
+.nav-links::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 20px; /* Adjust this value to position the underline */
+  left: 50%; /* Start from the center */
+  transform: translateX(-50%); /* Center the underline */
+  background-color: #3498db;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links:hover::after {
+  width: calc(100% - 2rem); /* Adjust width to match padding */
+}
+
+/* Styling for the active link */
+.nav-links.active {
+  color: #3498db; /* Blue for active link */
+  font-weight: 600;
+}
+
+.nav-links.active::after {
+  content: '';
+  position: absolute;
+  width: calc(100% - 2rem); /* Always show underline for active link */
+  height: 2px;
+  bottom: 20px; /* Match hover position */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #3498db;
+}
+
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 960px) {
+  .navbar-container {
+    padding: 0 20px;
+    flex-direction: column; /* Stack logo and menu vertically */
+    height: auto; /* Allow height to adjust */
+  }
+
+  .navbar {
+    height: auto; /* Allow navbar height to adjust */
+    padding: 1rem 0; /* Add vertical padding */
+    border-radius: 0; /* No rounded corners on small screens */
+  }
+
+  .navbar-logo {
+    margin-bottom: 1rem; /* Space between logo and stacked menu */
+    font-size: 1.8rem;
+  }
+  
+  .logo-image {
+    height: 40px; /* Smaller logo on mobile */
+  }
+
+  .nav-menu {
+    flex-direction: column; /* Stack menu items vertically */
+    width: 100%; /* Make menu take full width */
+  }
+
+  .nav-item {
+    width: 100%;
+    height: auto; /* Allow item height to adjust */
+    margin-bottom: 0.5rem; /* Space between stacked menu items */
+  }
+
+  .nav-links {
+    padding: 0.8rem 1rem; /* More vertical padding for touch targets */
+    width: 100%;
+    justify-content: center; /* Center links horizontally when stacked */
+  }
+
+  .nav-links::after, .nav-links.active::after {
+    bottom: 8px; /* Adjust underline position for smaller links */
+  }
+}
+
+/* Further adjustments for very small screens (e.g., mobile portrait) */
+@media screen and (max-width: 500px) {
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
+  .logo-image {
+    height: 35px;
+  }
+  .nav-links {
+    font-size: 1rem;
+  }
+}
