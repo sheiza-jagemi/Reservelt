@@ -7,7 +7,7 @@ const About = () => {
       <section className="about-section">
         <h2>Our Story</h2>
         <p>
-          Founded in 2023, Reservelt was created to provide exceptional hospitality
+          Founded in 2025, by four passionate developers, Reservelt was created to provide exceptional hospitality
           experiences with a personal touch. We believe every guest deserves a
           memorable stay.
         </p>

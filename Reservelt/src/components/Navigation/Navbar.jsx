@@ -1,38 +1,67 @@
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+// src/components/Navbar.jsx
+// Updated Navbar component to include an image logo.
+
+import { Link, NavLink } from 'react-router-dom';
+import React from 'react'; // React is needed for JSX
+import './Navbar.css'; // Import the CSS file for styling
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          Reservelt
+          <img
+            src="src/assets/ images/Reservelt-Logo.png"
+            alt="Reservelt Logo"
+            className="logo-image"
+    
+            onError={(e) => {
+              e.target.onerror = null; 
+              e.target.src = 'src/assets/ images/Reservelt-Logo.png'; // Fallback image
+            }}
+          />
+          <span className="logo-text">Reservelt</span>
         </Link>
         <ul className="nav-menu">
           <li className="nav-item">
-            <Link to="/" className="nav-links">
+            <NavLink
+              to="/"
+              className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/rooms" className="nav-links">
+            <NavLink
+              to="/rooms"
+              className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
+            >
               Rooms
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/services" className="nav-links">
+            <NavLink
+              to="/services"
+              className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
+            >
               Services
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/about" className="nav-links">
+            <NavLink
+              to="/about"
+              className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
+            >
               About
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link to="/contact" className="nav-links">
+            <NavLink
+              to="/contact"
+              className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
+            >
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </div>

@@ -31,7 +31,7 @@ const Contact = () => {
         <section className="contact-info">
           <h2>Get in Touch</h2>
           <p>Email: info@reservelt.com</p>
-          <p>Phone: +1 (555) 123-4567</p>
+          <p>Phone: +254 776 435 7980</p>
           <p>Address: 123 Hospitality Ave, Resort City</p>
         </section>
         
