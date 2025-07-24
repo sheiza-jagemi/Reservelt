@@ -33,10 +33,10 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/rooms"
+              to="/about"
               className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
             >
-              Rooms
+              About
             </NavLink>
           </li>
           <li className="nav-item">
@@ -49,10 +49,10 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <NavLink
-              to="/about"
+              to="/rooms"
               className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
             >
-              About
+              Rooms
             </NavLink>
           </li>
           <li className="nav-item">
@@ -60,7 +60,7 @@ const Navbar = () => {
               to="/contact"
               className={({ isActive }) => (isActive ? 'nav-links active' : 'nav-links')}
             >
-              Contact
+              Contact Us
             </NavLink>
           </li>
         </ul>

@@ -12,7 +12,7 @@
   top: 0;
   z-index: 999; /* Ensures the navbar stays on top of other content */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+  border-radius: 0 !important; /* No rounded corners */
 }
 
 .navbar-container {
@@ -134,7 +134,7 @@
   .navbar {
     height: auto; /* Allow navbar height to adjust */
     padding: 1rem 0; /* Add vertical padding */
-    border-radius: 0; /* No rounded corners on small screens */
+    border-radius: 0 !important; /* No rounded corners on small screens */
   }
 
   .navbar-logo {

@@ -1,10 +1,76 @@
-import '../App.css';
+import { Link } from 'react-router-dom';
+import '../styles/Home.css';
 
 const Home = () => {
   return (
-    <div className="page-container">
-      <h1>Welcome to Reservelt</h1>
-      <p>Book your perfect getaway with us</p>
+    <div className="home-container">
+      <section className="hero-section">
+        <div className="hero-content">
+          <h1>Welcome to Reservelt</h1>
+          <p>Your premier destination for luxury accommodations and exceptional service</p>
+          <Link to="/rooms" className="cta-button">Explore Our Rooms</Link>
+        </div>
+      </section>
+
+      <section className="features-section">
+        <div className="features-grid">
+          <div className="feature-card">
+            <h3>100 Premium Rooms</h3>
+            <p>Choose from 40 Single rooms, 30 Double rooms, and 30 Executive Suites, each designed for comfort and luxury.</p>
+          </div>
+          <div className="feature-card">
+            <h3>Modern Amenities</h3>
+            <p>All rooms feature Wi-Fi, TV, Air Conditioning, and premium amenities tailored to each room type.</p>
+          </div>
+          <div className="feature-card">
+            <h3>Easy Booking</h3>
+            <p>Our streamlined booking system prevents double-bookings and ensures your reservation is secure.</p>
+          </div>
+          <div className="feature-card">
+            <h3>Customer Reviews</h3>
+            <p>Read authentic feedback from our guests and share your own experience with our community.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="room-types-section">
+        <h2>Room Categories</h2>
+        <div className="room-types-grid">
+          <div className="room-type-card">
+            <h3>Single Rooms</h3>
+            <p className="price">$116/night</p>
+            <p>Perfect for solo travelers, featuring essential amenities and comfortable accommodations.</p>
+            <ul>
+              <li>1 Guest capacity</li>
+              <li>Wi-Fi & TV</li>
+              <li>Air Conditioning</li>
+              <li>Mini Fridge</li>
+            </ul>
+          </div>
+          <div className="room-type-card">
+            <h3>Double Rooms</h3>
+            <p className="price">$180/night</p>
+            <p>Spacious rooms ideal for couples, with enhanced amenities and city views.</p>
+            <ul>
+              <li>2 Guest capacity</li>
+              <li>Wi-Fi & TV</li>
+              <li>Air Conditioning</li>
+              <li>Mini Fridge & Coffee Maker</li>
+            </ul>
+          </div>
+          <div className="room-type-card">
+            <h3>Executive Suites</h3>
+            <p className="price">$350/night</p>
+            <p>Luxurious suites with premium amenities and stunning views for the ultimate experience.</p>
+            <ul>
+              <li>4 Guest capacity</li>
+              <li>Premium amenities</li>
+              <li>Mini Bar & Jacuzzi</li>
+              <li>Room Service & Balcony</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

@@ -1,0 +1,164 @@
+.room-list-container {
+  padding: 20px 0;
+}
+
+.room-list-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.room-section {
+  margin-bottom: 40px;
+}
+
+.room-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .room-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .room-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .room-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.room-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px 20px;
+}
+
+.room-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.room-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.room-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.room-card:hover .room-image img {
+  transform: scale(1.05);
+}
+
+.room-info {
+  padding: 20px;
+}
+
+.room-info h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.room-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0066cc;
+  margin-bottom: 10px;
+}
+
+.room-occupancy {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.room-amenities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.amenity-tag {
+  background-color: #f0f7ff;
+  color: #0066cc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.view-details-btn {
+  display: inline-block;
+  background-color: #0066cc;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.view-details-btn:hover {
+  background-color: #0055aa;
+}
+
+.no-rooms {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  color: #666;
+}
+
+.view-more-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+.view-more-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-more-btn:hover {
+  background-color: #0055aa;
+}
+
+@media (max-width: 768px) {
+  .room-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,215 @@
+/* Navigation folder global overrides */
+/* This file ensures Navigation styling takes priority over other styles */
+
+/* Import the main navbar styles */
+@import './Navbar.css';
+
+/* Global overrides for navigation-related elements */
+.navbar,
+.navbar * {
+  /* Force navigation styles to take precedence */
+  position: relative !important;
+  z-index: 9999 !important;
+}
+
+/* Override any conflicting header styles */
+header,
+.header,
+.app-header {
+  display: none !important;
+}
+
+/* Ensure navbar container takes precedence */
+.navbar-container {
+  background-color: #2c3e50 !important;
+  height: 80px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  width: 100% !important;
+  max-width: 1300px !important;
+  padding: 0 50px !important;
+  margin: 0 auto !important;
+}
+
+/* Override any conflicting logo styles */
+.navbar-logo,
+.logo,
+.brand {
+  color: #ecf0f1 !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  letter-spacing: 1.5px !important;
+  transition: color 0.3s ease-in-out !important;
+}
+
+/* Override any conflicting navigation menu styles */
+.nav-menu,
+.navigation-menu,
+.menu {
+  display: flex !important;
+  align-items: center !important;
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Override any conflicting navigation link styles */
+.nav-links,
+.navigation-link,
+.menu-link {
+  color: #ecf0f1 !important;
+  text-decoration: none !important;
+  padding: 0 1rem !important;
+  height: 80px !important;
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  transition: color 0.3s ease-in-out !important;
+  font-weight: 500 !important;
+  font-size: 1.1rem !important;
+}
+
+/* Override hover states */
+.nav-links:hover,
+.navigation-link:hover,
+.menu-link:hover {
+  color: #3498db !important;
+}
+
+/* Override active states */
+.nav-links.active,
+.navigation-link.active,
+.menu-link.active {
+  color: #3498db !important;
+  font-weight: 600 !important;
+}
+
+/* Ensure underline effects work */
+.nav-links::after,
+.navigation-link::after,
+.menu-link::after {
+  content: '' !important;
+  position: absolute !important;
+  width: 0 !important;
+  height: 2px !important;
+  bottom: 20px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  background-color: #3498db !important;
+  transition: width 0.3s ease-in-out !important;
+}
+
+.nav-links:hover::after,
+.navigation-link:hover::after,
+.menu-link:hover::after {
+  width: calc(100% - 2rem) !important;
+}
+
+.nav-links.active::after,
+.navigation-link.active::after,
+.menu-link.active::after {
+  width: calc(100% - 2rem) !important;
+}
+
+/* Override any conflicting responsive styles */
+@media screen and (max-width: 960px) {
+  .navbar-container {
+    padding: 0 20px !important;
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .navbar {
+    height: auto !important;
+    padding: 1rem 0 !important;
+    border-radius: 0 !important;
+  }
+
+  .nav-menu,
+  .navigation-menu,
+  .menu {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .nav-links,
+  .navigation-link,
+  .menu-link {
+    padding: 0.8rem 1rem !important;
+    width: 100% !important;
+    justify-content: center !important;
+    height: auto !important;
+  }
+}
+
+/* Ensure main content doesn't overlap with fixed navbar */
+.main-content,
+.app-main,
+main {
+  margin-top: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Override any body or html styles that might conflict */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Ensure the app container works with the navbar */
+.app {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
+  width: 100% !important;
+}
+
+/* Full width page containers */
+.page-container,
+.room-list-container,
+.room-detail-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 20px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+}
+
+/* Override any container max-width restrictions */
+* {
+  box-sizing: border-box !important;
+}
+
+html {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Force full width on all containers */
+.container,
+.main-container,
+.content-container {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 20px !important;
+}
+
+/* Override any Bootstrap or framework constraints */
+.row,
+.col,
+[class*="col-"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 15px !important;
+}

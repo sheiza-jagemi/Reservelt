@@ -1,5 +1,9 @@
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './styles/GlobalOverrides.css';
+import './styles/ButtonOverrides.css';
+import './components/Navigation/Navigation.css';
+import './components/Booking/BookingForm.css';
 import './App.css';
 
 // Core Layout Components
@@ -13,10 +17,16 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
+// Room Components
+import RoomDetail from './components/Room/RoomDetail';
+
 // Feedback Components
 import FeedbackForm from './components/FeedbackForm/FeedbackForm';
 import ReviewList from './components/FeedbackForm/ReviewList';
 import ToastNotification from './components/FeedbackForm/ToastNotification';
+
+// API
+import { feedbackApi } from './api/bookingApi';
 
 function App() {
   const [reviews, setReviews] = useState([
@@ -41,15 +51,22 @@ function App() {
 
   const handleSubmitFeedback = async (feedback) => {
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000)); // simulate API
-      const newReview = {
-        id: reviews.length + 1,
-        userName: "You",
-        date: new Date().toISOString(),
+      const newFeedback = await feedbackApi.createFeedback({
+        userName: feedback.userName || "Anonymous",
+        email: feedback.email || "",
         rating: feedback.rating,
-        comment: feedback.comment,
-        avatar: "https://i.pravatar.cc/150?img=3"
+        comment: feedback.comment
+      });
+      
+      const newReview = {
+        id: newFeedback.id,
+        userName: newFeedback.userName,
+        date: newFeedback.date,
+        rating: newFeedback.rating,
+        comment: newFeedback.comment,
+        avatar: newFeedback.avatar
       };
+      
       setReviews([newReview, ...reviews]);
       setNotification({
         type: 'success',
@@ -73,6 +90,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/rooms" element={<Rooms />} />
+            <Route path="/rooms/:roomId" element={<RoomDetail />} />
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

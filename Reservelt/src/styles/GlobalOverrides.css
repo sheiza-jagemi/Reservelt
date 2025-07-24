@@ -1,0 +1,99 @@
+/* Global full-width overrides - highest priority */
+html, body {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  box-sizing: border-box !important;
+}
+
+#root {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.app {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  min-height: 100vh !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.main-content {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  flex: 1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Override all possible container restrictions */
+.container,
+.container-fluid,
+.page-container,
+.room-list-container,
+.room-detail-container,
+.content,
+.wrapper,
+.main,
+main {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin: 0 !important;
+  padding: 0 20px !important;
+  box-sizing: border-box !important;
+}
+
+/* Remove all border radius from header and footer elements */
+.navbar,
+.footer,
+header,
+footer,
+.header,
+.nav,
+nav {
+  border-radius: 0 !important;
+}
+
+/* Force all direct children to respect full width */
+* {
+  box-sizing: border-box !important;
+}
+
+/* Remove any max-width constraints */
+[style*="max-width"],
+[class*="max-w"],
+[class*="container"] {
+  max-width: 100vw !important;
+  width: 100vw !important;
+}
+
+/* Ensure grid and flex containers use full width */
+.grid,
+.flex,
+[class*="grid"],
+[class*="flex"] {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Override Bootstrap and other framework constraints */
+.row {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+.col,
+[class*="col-"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 15px !important;
+}
