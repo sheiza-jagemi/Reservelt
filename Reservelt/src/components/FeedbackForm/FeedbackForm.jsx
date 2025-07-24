@@ -41,7 +41,7 @@ const FeedbackForm = ({ onSubmit }) => {
 
   return (
     <div className="feedback-form-container">
-      <h2 className="feedback-title">Share Your Experience</h2>
+     {/* <h2 className="feedback-title">Share Your Experience</h2> */}
       
       {toast && (
         <ToastNotification 
@@ -50,6 +50,8 @@ const FeedbackForm = ({ onSubmit }) => {
           onClose={() => setToast(null)}
         />
       )}
+      
+     {/*} <h3 className="experience-title">Share Your Experience</h3> */}
       
       <form onSubmit={handleSubmit} className="feedback-form">
         <div className="form-group">

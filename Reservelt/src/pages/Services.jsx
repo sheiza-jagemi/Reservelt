@@ -1,6 +1,18 @@
 import '../styles/Services.css';
 
 const Services = () => {
+  const getServiceImage = (id) => {
+    const images = {
+      1: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&w=300&h=200&fit=crop",
+      2: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&w=300&h=200&fit=crop",
+      3: "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&w=300&h=200&fit=crop",
+      4: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?ixlib=rb-4.0.3&w=300&h=200&fit=crop",
+      5: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&w=300&h=200&fit=crop",
+      6: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&w=300&h=200&fit=crop"
+    };
+    return images[id];
+  };
+
   const services = [
     {
       id: 1,
@@ -63,6 +75,11 @@ const Services = () => {
         <div className="services-grid">
           {services.map(service => (
             <div key={service.id} className="service-card">
+              <img 
+                src={getServiceImage(service.id)} 
+                alt={service.name} 
+                className="service-card-image" 
+              />
               <div className="service-header">
                 <h3>{service.name}</h3>
                 <span className="service-category">{service.category}</span>

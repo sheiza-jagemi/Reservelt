@@ -140,6 +140,15 @@
   text-align: center;
 }
 
+.service-card-image,
+.category-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
 .category-card h3 {
   color: #2c3e50;
   margin-bottom: 15px;
