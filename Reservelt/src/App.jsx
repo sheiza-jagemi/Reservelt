@@ -16,6 +16,7 @@ import Rooms from './pages/Rooms';
 import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import RateUs from './pages/RateUs';
 
 // Room Components
 import RoomDetail from './components/Room/RoomDetail';
@@ -94,33 +95,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            {/* Feedback route */}
-            <Route path="/feedback" element={
-              <div className="feedback-system">
-                {notification && (
-                  <ToastNotification 
-                    message={notification.message} 
-                    type={notification.type} 
-                  />
-                )}
-
-                <div className="feedback-card">
-                  <h2 className="section-title">Leave Your Feedback</h2>
-                  <p className="section-description">
-                    We value your opinion! Please share your experience with our services.
-                  </p>
-                  <FeedbackForm onSubmit={handleSubmitFeedback} />
-                </div>
-
-                <div className="reviews-card">
-                  <h2 className="section-title">Customer Reviews</h2>
-                  <p className="section-description">
-                    What others are saying about their experience
-                  </p>
-                  <ReviewList reviews={reviews} />
-                </div>
-              </div>
-            } />
+            <Route path="/rate-us" element={<RateUs />} />
           </Routes>
         </main>
         <Footer />
