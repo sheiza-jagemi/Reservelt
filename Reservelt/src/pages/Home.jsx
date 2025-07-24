@@ -15,18 +15,22 @@ const Home = () => {
       <section className="features-section">
         <div className="features-grid">
           <div className="feature-card">
+            <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Premium Rooms" className="feature-image" />
             <h3>100 Premium Rooms</h3>
             <p>Choose from 40 Single rooms, 30 Double rooms, and 30 Executive Suites, each designed for comfort and luxury.</p>
           </div>
           <div className="feature-card">
+            <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Modern Amenities" className="feature-image" />
             <h3>Modern Amenities</h3>
             <p>All rooms feature Wi-Fi, TV, Air Conditioning, and premium amenities tailored to each room type.</p>
           </div>
           <div className="feature-card">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Easy Booking" className="feature-image" />
             <h3>Easy Booking</h3>
             <p>Our streamlined booking system prevents double-bookings and ensures your reservation is secure.</p>
           </div>
           <div className="feature-card">
+            <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Customer Reviews" className="feature-image" />
             <h3>Customer Reviews</h3>
             <p>Read authentic feedback from our guests and share your own experience with our community.</p>
           </div>

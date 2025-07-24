@@ -2304,6 +2304,24 @@
       "date": "2025-07-19T11:20:00Z",
       "roomId": 72,
       "avatar": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "userName": "Anonymous",
+      "email": "",
+      "rating": 1,
+      "comment": "It was good",
+      "id": 1753377319025,
+      "date": "2025-07-24T17:15:19.025Z",
+      "avatar": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "userName": "Anonymous",
+      "email": "",
+      "rating": 5,
+      "comment": "It was good",
+      "id": 1753377331486,
+      "date": "2025-07-24T17:15:31.486Z",
+      "avatar": "https://i.pravatar.cc/150?img=7"
     }
   ]
 }

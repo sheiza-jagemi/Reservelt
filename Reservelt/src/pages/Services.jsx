@@ -83,18 +83,22 @@ const Services = () => {
           <h2>Service Categories</h2>
           <div className="categories-grid">
             <div className="category-card">
+              <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Dining & Meals" className="category-image" />
               <h3>Dining & Meals</h3>
               <p>From continental breakfast to fine dining experiences, our culinary team provides exceptional meal services.</p>
             </div>
             <div className="category-card">
+              <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Wellness & Spa" className="category-image" />
               <h3>Wellness & Spa</h3>
               <p>Rejuvenate with our professional massage and spa services designed for complete relaxation.</p>
             </div>
             <div className="category-card">
+              <img src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Recreation & Sports" className="category-image" />
               <h3>Recreation & Sports</h3>
               <p>Stay active with our tennis courts, swimming pool, and various recreational facilities.</p>
             </div>
             <div className="category-card">
+              <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-4.0.3&w=300&h=200&fit=crop" alt="Accommodation Services" className="category-image" />
               <h3>Accommodation Services</h3>
               <p>Premium accommodation services including concierge, housekeeping, and personalized guest care.</p>
             </div>

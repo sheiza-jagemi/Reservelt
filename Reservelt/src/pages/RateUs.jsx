@@ -9,12 +9,14 @@ const RateUs = () => {
   const [reviews, setReviews] = useState([]);
   const [notification, setNotification] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [visibleReviews, setVisibleReviews] = useState(5);
 
   useEffect(() => {
     const fetchFeedback = async () => {
       try {
         const data = await feedbackApi.getAllFeedback();
-        setReviews(data);
+        const sortedReviews = data.sort((a, b) => new Date(b.date) - new Date(a.date));
+        setReviews(sortedReviews);
         setLoading(false);
       } catch (error) {
         console.error('Error fetching feedback:', error);
@@ -86,7 +88,17 @@ const RateUs = () => {
             {loading ? (
               <div className="loading">Loading reviews...</div>
             ) : (
-              <ReviewList reviews={reviews} />
+              <>
+                <ReviewList reviews={reviews.slice(0, visibleReviews)} />
+                {reviews.length > visibleReviews && (
+                  <button 
+                    className="view-more-reviews-btn"
+                    onClick={() => setVisibleReviews(prev => prev + 5)}
+                  >
+                    View More Reviews
+                  </button>
+                )}
+              </>
             )}
           </div>
         </div>

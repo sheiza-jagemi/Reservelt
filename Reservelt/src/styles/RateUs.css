@@ -29,17 +29,23 @@
 }
 
 .feedback-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   gap: 60px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .feedback-card,
 .reviews-section {
   background: white;
-  padding: 40px;
+  padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 450px;
+  align-self: flex-start;
 }
 
 .feedback-card h2,
@@ -63,14 +69,32 @@
   padding: 40px;
 }
 
+.view-more-reviews-btn {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 20px;
+  width: 100%;
+  transition: background 0.3s;
+}
+
+.view-more-reviews-btn:hover {
+  background: #1a252f;
+}
+
 @media (max-width: 768px) {
   .rate-us-hero h1 {
     font-size: 2rem;
   }
   
   .feedback-section {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     gap: 40px;
+    align-items: center;
   }
   
   .feedback-card,
