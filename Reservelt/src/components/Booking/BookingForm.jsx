@@ -30,7 +30,7 @@ const BookingForm = ({ room, onBookingSuccess, onClose }) => {
 
   const isDateRangeBooked = async (checkIn, checkOut) => {
     try {
-      const response = await fetch(`http://localhost:3001/bookings?roomId=${room.id}`);
+      const response = await fetch(`https://reservelt-endpoints.onrender.com/bookings?roomId=${room.id}`);
       const bookings = await response.json();
       
       if (!bookings || bookings.length === 0) return false;

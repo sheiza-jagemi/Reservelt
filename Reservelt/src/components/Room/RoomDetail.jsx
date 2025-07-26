@@ -18,7 +18,7 @@ const RoomDetail = () => {
   useEffect(() => {
     const fetchRoom = async () => {
       try {
-        const response = await fetch(`http://localhost:3001/rooms/${roomId}`);
+        const response = await fetch(`https://reservelt-endpoints.onrender.com/rooms/${roomId}`);
         if (!response.ok) throw new Error('Room not found');
         const data = await response.json();
         setRoom(data);
@@ -31,7 +31,7 @@ const RoomDetail = () => {
 
     const fetchBookings = async () => {
       try {
-        const response = await fetch(`http://localhost:3001/bookings?roomId=${roomId}`);
+        const response = await fetch(`https://reservelt-endpoints.onrender.com/bookings?roomId=${roomId}`);
         const data = await response.json();
         setBookings(data);
       } catch (err) {

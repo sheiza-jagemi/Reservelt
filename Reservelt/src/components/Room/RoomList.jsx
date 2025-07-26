@@ -19,7 +19,7 @@ function RoomList() {
     const fetchRooms = async () => {
       try {
         console.log('Fetching rooms from server...');
-        const response = await fetch('http://localhost:3001/rooms');
+        const response = await fetch('https://reservelt-endpoints.onrender.com/rooms');
         console.log('Response status:', response.status);
         if (!response.ok) {
           throw new Error('Failed to fetch rooms');

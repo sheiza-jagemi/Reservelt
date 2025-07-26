@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:3001";
+const API_BASE = "https://reservelt-endpoints.onrender.com";
 
 export const getRooms = async () => {
   const response = await fetch(`${API_BASE}/rooms`);

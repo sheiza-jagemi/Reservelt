@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3001';
+const API_BASE_URL = 'https://reservelt-endpoints.onrender.com';
 
 export const bookingApi = {
   // Get all bookings
