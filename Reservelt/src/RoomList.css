@@ -89,7 +89,7 @@
 .room-price {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #0066cc;
+  color: #333;
   margin-bottom: 10px;
 }
 
@@ -107,7 +107,7 @@
 
 .amenity-tag {
   background-color: #f0f7ff;
-  color: #0066cc;
+  color: #333;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 0.8rem;
@@ -115,7 +115,7 @@
 
 .view-details-btn {
   display: inline-block;
-  background-color: #0066cc;
+  background-color: #333;
   color: white;
   padding: 8px 16px;
   border-radius: 4px;
@@ -143,7 +143,7 @@
 }
 
 .view-more-btn {
-  background-color: #0066cc;
+  background-color: #333;
   color: white;
   border: none;
   padding: 10px 20px;

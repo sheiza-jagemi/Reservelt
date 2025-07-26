@@ -100,7 +100,7 @@
 .room-price {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #0066cc;
+  color: #333;
 }
 
 .room-description,
@@ -132,7 +132,7 @@
 }
 
 .amenity-icon {
-  color: #0066cc;
+  color: #333;
   margin-right: 8px;
 }
 

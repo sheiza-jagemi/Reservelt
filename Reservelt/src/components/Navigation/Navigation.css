@@ -1,13 +1,9 @@
-/* Navigation folder global overrides */
-/* This file ensures Navigation styling takes priority over other styles */
 
-/* Import the main navbar styles */
 @import './Navbar.css';
 
-/* Global overrides for navigation-related elements */
 .navbar,
 .navbar * {
-  /* Force navigation styles to take precedence */
+
   position: relative !important;
   z-index: 9999 !important;
 }

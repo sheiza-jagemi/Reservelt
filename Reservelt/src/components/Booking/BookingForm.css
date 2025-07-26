@@ -14,9 +14,9 @@
 .booking-form-container {
   background: white;
   border-radius: 8px;
-  width: 90%;
-  max-width: 500px;
-  max-height: 90vh;
+  width: 70%;
+  max-width: 400px;
+  max-height: 80vh;
   overflow-y: auto;
 }
 
@@ -24,29 +24,30 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   border-bottom: 1px solid #eee;
 }
 
 .booking-form-header h2 {
   margin: 0;
   color: #333;
+  font-size: 1.3rem;
 }
 
 .close-btn {
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 20px;
   cursor: pointer;
   color: #666;
 }
 
 .booking-form {
-  padding: 20px;
+  padding: 15px;
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .form-row {
@@ -65,10 +66,10 @@
 .form-group input,
 .form-group select {
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .booking-summary {

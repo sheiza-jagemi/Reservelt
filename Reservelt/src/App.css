@@ -175,9 +175,7 @@ textarea.feedback-form-control {
   resize: vertical;
 }
 
-/* ================ */
-/* Buttons */
-/* ================ */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -206,9 +204,6 @@ textarea.feedback-form-control {
   cursor: not-allowed;
 }
 
-/* ================ */
-/* Rating System */
-/* ================ */
 .rating-stars {
   display: flex;
   gap: var(--space-sm);
@@ -230,9 +225,6 @@ textarea.feedback-form-control {
   transform: scale(1.1);
 }
 
-/* ================ */
-/* Reviews */
-/* ================ */
 .review-item {
   padding: var(--space-lg) 0;
   border-bottom: 1px solid var(--border-color);
@@ -283,9 +275,6 @@ textarea.feedback-form-control {
   line-height: 1.6;
 }
 
-/* ================ */
-/* Notifications */
-/* ================ */
 .notification {
   padding: var(--space-md);
   margin-bottom: var(--space-lg);
@@ -312,9 +301,6 @@ textarea.feedback-form-control {
   font-size: 1.25rem;
 }
 
-/* ================ */
-/* Empty State */
-/* ================ */
 .empty-state {
   text-align: center;
   padding: var(--space-xl) var(--space-md);
@@ -331,9 +317,6 @@ textarea.feedback-form-control {
   font-size: var(--font-size-lg);
 }
 
-/* ================ */
-/* Animations */
-/* ================ */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -345,9 +328,6 @@ textarea.feedback-form-control {
   }
 }
 
-/* ================ */
-/* Page-Specific: Rooms */
-/* ================ */
 .rooms-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -398,9 +378,6 @@ textarea.feedback-form-control {
   font-size: 0.8rem;
 }
 
-/* ================ */
-/* Services Page */
-/* ================ */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

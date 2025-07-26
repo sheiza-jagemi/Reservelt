@@ -91,7 +91,6 @@ const Services = () => {
                   <li key={index}>{feature}</li>
                 ))}
               </ul>
-              <button className="book-service-btn">Book Service</button>
             </div>
           ))}
         </div>

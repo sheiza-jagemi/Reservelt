@@ -13,6 +13,7 @@ const RoomDetail = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [showBookingForm, setShowBookingForm] = useState(false);
   const [notification, setNotification] = useState(null);
+  const [bookings, setBookings] = useState([]);
 
   useEffect(() => {
     const fetchRoom = async () => {
@@ -28,7 +29,18 @@ const RoomDetail = () => {
       }
     };
 
+    const fetchBookings = async () => {
+      try {
+        const response = await fetch(`http://localhost:3001/bookings?roomId=${roomId}`);
+        const data = await response.json();
+        setBookings(data);
+      } catch (err) {
+        console.error('Error fetching bookings:', err);
+      }
+    };
+
     fetchRoom();
+    fetchBookings();
   }, [roomId]);
 
   const nextImage = () => {
@@ -118,12 +130,22 @@ const RoomDetail = () => {
             <div className="detail-item">
               <strong>Max Occupancy:</strong> {room.maxOccupancy} guest{room.maxOccupancy > 1 ? 's' : ''}
             </div>
-            <div className="detail-item">
-              <strong>Availability:</strong> 
-              <span className={room.isAvailable ? 'available' : 'unavailable'}>
-                {room.isAvailable ? 'Available' : 'Not Available'}
-              </span>
-            </div>
+            {bookings.length > 0 && (
+              <div className="detail-item">
+                <strong>Upcoming Bookings:</strong>
+                <div className="booking-dates">
+                  {bookings.map((booking, index) => {
+                    const checkIn = new Date(booking.checkIn).toLocaleDateString();
+                    const checkOut = new Date(booking.checkOut).toLocaleDateString();
+                    return (
+                      <div key={index} className="booking-period">
+                        {checkIn} - {checkOut}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
 
           <div className="room-description">
@@ -147,9 +169,8 @@ const RoomDetail = () => {
             <button 
               className="book-now-btn"
               onClick={() => setShowBookingForm(true)}
-              disabled={!room.isAvailable}
             >
-              {room.isAvailable ? 'Book Now' : 'Not Available'}
+              Book Now
             </button>
           </div>
         </div>

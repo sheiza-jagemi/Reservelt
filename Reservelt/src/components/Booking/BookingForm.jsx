@@ -42,7 +42,7 @@ const BookingForm = ({ room, onBookingSuccess, onClose }) => {
         const bookedStart = new Date(booking.checkIn);
         const bookedEnd = new Date(booking.checkOut);
         
-        return (newCheckIn < bookedEnd && newCheckOut > bookedStart);
+        return (newCheckIn <= bookedEnd && newCheckOut > bookedStart);
       });
     } catch (error) {
       console.error('Error checking bookings:', error);
